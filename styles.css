@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #e8e7e7;
+}
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px 0 rgba(0, 0, 0, 0.5); 
+}
+h1 {
+    text-align: center;
+    color: rgb(56, 56, 219);
+}
+h2{
+    text-align: center;
+}
+.add-photo {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#photosContainer {
+    margin-top: 20px;
+}
+.photo {
+    margin: 15px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.photo img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+.like-btn, .delete-btn, .comment-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+.like-btn:hover, .delete-btn:hover, .comment-btn:hover {
+    background-color: #45a049;
+}
+.comment-section {
+    display: flex; 
+    align-items: center;
+    margin-top: 10px; 
+}
+.comment-section input {
+    flex: 1; 
+    margin-right: 10px; 
+    padding: 10px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.comment-section input:focus {
+    border-color: #4CAF50; 
+}
+.comment {
+    margin: 5px 0; 
+    padding: 5px; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+.comment-btn {
+    background-color: rgb(0, 149, 255);
+}
+.comment-btn:hover {
+    background-color: rgb(33, 127, 215);
+}
+#uploadPhotoBtn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+#uploadPhotoBtn:hover {
+    background-color: #45a049;
+}
+.delete-comment-btn {
+    background-color: #f44336; 
+    color: white; 
+    border: none; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    margin-left: 10px; 
+}
+.delete-comment-btn:hover {
+    background-color: #e53935; 
+}
+.custom-file-upload {
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: rgb(0, 149, 255);
+    color: white; 
+    border: none; 
+    margin-right: 10px; 
+    transition: background-color 0.3s;
+}
+.custom-file-upload:hover {
+    background-color: rgb(33, 127, 215); 
+}
+input[type="file"] {
+    display: none; 
+}
